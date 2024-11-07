@@ -61,11 +61,11 @@
 
             display-name = "Base";
             bindings = <
-&none  &none  &none  &none         &none         &none                                     &none  &none   &none          &none    &none     &none
-&none  &kp Q  &kp W  &kp E         &kp R         &kp T                                     &kp Y  &kp U   &kp I          &kp O    &kp P     &none
-&none  &kp A  &kp S  &kp D         &kp F         &kp G                                     &kp H  &kp J   &kp K          &kp L    &kp SEMI  &none
-&none  &kp Z  &kp X  &kp C         &kp V         &kp B               &none      &none      &kp N  &kp M   &kp COMMA      &kp DOT  &kp FSLH  &none
-                     &kp LEFT_GUI  &kp LEFT_GUI  &holdLayer 0 SPACE  &kp TAB    &kp ENTER  &sl 0  &tog 0  &kp LG(SPACE)
+&none  &none  &none  &none  &none                &none                                                       &none                   &none                &none          &none    &none     &none
+&none  &kp Q  &kp W  &kp E  &kp R                &kp T                                                       &kp Y                   &kp U                &kp I          &kp O    &kp P     &none
+&none  &kp A  &kp S  &kp D  &kp F                &kp G                                                       &kp H                   &kp J                &kp K          &kp L    &kp SEMI  &kp SQT
+&none  &kp Z  &kp X  &kp C  &kp V                &kp B               &none               &none               &kp N                   &kp M                &kp COMMA      &kp DOT  &kp FSLH  &none
+                     &none  &holdLayer 5 ESCAPE  &holdLayer 1 SPACE  &holdLayer 6 TAB    &holdLayer 2 ENTER  &holdLayer 4 BACKSPACE  &holdLayer 3 DELETE  &kp LG(SPACE)
             >;
         };
 
@@ -116,6 +116,16 @@
 &none  &none  &none  &none  &none  &none                  &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
                      &none  &none  &none  &none    &none  &none  &none  &none
+            >;
+        };
+
+        mouse {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
