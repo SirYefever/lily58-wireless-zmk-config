@@ -74,11 +74,11 @@
 
         sym {
             bindings = <
-&trans  &trans    &trans    &trans          &trans     &trans                    &trans  &trans         &trans     &trans        &trans  &trans
-&trans  &trans    &trans    &trans          &trans     &trans                    &trans  &trans         &trans     &trans        &trans  &trans
-&trans  &kp BSLH  &kp PIPE  &kp UNDERSCORE  &kp MINUS  &trans                    &trans  &kp LS(COLON)  &kp EQUAL  &kp LS(PLUS)  &trans  &trans
-&trans  &trans    &trans    &trans          &trans     &trans  &trans    &trans  &trans  &trans         &trans     &trans        &trans  &trans
-                            &trans          &trans     &trans  &trans    &trans  &trans  &trans         &trans
+&trans  &trans    &trans    &trans          &trans     &trans                    &trans  &trans     &trans     &trans    &trans  &trans
+&trans  &trans    &trans    &trans          &trans     &trans                    &trans  &trans     &trans     &trans    &trans  &trans
+&trans  &kp BSLH  &kp PIPE  &kp UNDERSCORE  &kp MINUS  &trans                    &trans  &kp COLON  &kp EQUAL  &kp PLUS  &trans  &trans
+&trans  &trans    &trans    &trans          &trans     &trans  &trans    &trans  &trans  &trans     &trans     &trans    &trans  &trans
+                            &trans          &trans     &trans  &trans    &trans  &trans  &trans     &trans
             >;
         };
 
