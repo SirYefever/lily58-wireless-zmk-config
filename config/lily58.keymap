@@ -47,7 +47,7 @@
 &kp ESC    &kp N1                    &kp N2                &kp N3                &kp N4                  &kp N5                                                          &kp N6         &kp N7                  &kp N8                &kp N9                &kp N0                            &kp BSPC
 &kp TAB    &kp Q                     &kp W                 &kp E                 &kp R                   &kp T                                                           &kp Y          &kp U                   &kp I                 &kp O                 &kp P                             &kp PRINTSCREEN
 &kp LSHFT  &tap_hold LEFT_CONTROL A  &tap_hold LEFT_GUI S  &tap_hold LEFT_ALT D  &tap_hold LEFT_SHIFT F  &kp G                                                           &kp H          &tap_hold LEFT_SHIFT J  &tap_hold LEFT_ALT K  &tap_hold LEFT_GUI L  &tap_hold LEFT_CONTROL SEMICOLON  &kp APOS
-&kp LCTRL  &kp Z                     &kp X                 &kp C                 &kp V                   &kp B               &kp LBKT               &kp RBKT             &kp N          &kp M                   &kp COMMA             &kp DOT               &kp FSLH                          &holdLayer 0 RETURN
+&kp LCTRL  &kp Z                     &kp X                 &kp C                 &kp V                   &kp B               &kp LBKT               &kp RBKT             &kp N          &kp M                   &kp COMMA             &kp DOT               &kp FSLH                          &holdLayer 5 RETURN
                                                            &kp LGUI              &holdLayer 3 TAB        &holdLayer 1 SPACE  &holdLayer 2 ESCAPE    &holdLayer 4 RETURN  &kp BACKSPACE  &kp DELETE              &kp LG(SPACE)
             >;
         };
