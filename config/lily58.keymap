@@ -44,20 +44,20 @@
 
         base {
             bindings = <
-&kp ESC    &kp N1                    &kp N2                &kp N3                &kp N4                  &kp N5                                                               &kp N6               &kp N7                  &kp N8                &kp N9                &kp N0                            &kp BSPC
-&kp TAB    &kp Q                     &kp W                 &kp E                 &kp R                   &kp T                                                                &kp Y                &kp U                   &kp I                 &kp O                 &kp P                             &kp PRINTSCREEN
-&kp LSHFT  &tap_hold LEFT_CONTROL A  &tap_hold LEFT_GUI S  &tap_hold LEFT_ALT D  &tap_hold LEFT_SHIFT F  &kp G                                                                &kp H                &tap_hold LEFT_SHIFT J  &tap_hold LEFT_ALT K  &tap_hold LEFT_GUI L  &tap_hold LEFT_CONTROL SEMICOLON  &kp APOS
-&kp LCTRL  &kp Z                     &kp X                 &kp C                 &kp V                   &kp B               &holdLayer 5 LEFT_BRACKET    &kp RBKT            &kp N                &kp M                   &kp COMMA             &kp DOT               &kp FSLH                          &to 5
-                                                           &kp BACKSPACE         &holdLayer 3 TAB        &holdLayer 1 SPACE  &kp BACKSPACE                &holdLayer 4 ENTER  &holdLayer 2 ESCAPE  &kp DELETE              &kp LG(SPACE)
+&none      &kp N1                    &kp N2                &kp N3                &kp N4                  &kp N5                                                               &kp N6         &kp N7                  &kp N8                &kp N9                &kp N0                            &none
+&kp TAB    &kp Q                     &kp W                 &kp E                 &kp R                   &kp T                                                                &kp Y          &kp U                   &kp I                 &kp O                 &kp P                             &kp PRINTSCREEN
+&kp LSHFT  &tap_hold LEFT_CONTROL A  &tap_hold LEFT_GUI S  &tap_hold LEFT_ALT D  &tap_hold LEFT_SHIFT F  &kp G                                                                &kp H          &tap_hold LEFT_SHIFT J  &tap_hold LEFT_ALT K  &tap_hold LEFT_GUI L  &tap_hold LEFT_CONTROL SEMICOLON  &kp APOS
+&kp LCTRL  &kp Z                     &kp X                 &kp C                 &kp V                   &kp B               &holdLayer 5 LEFT_BRACKET    &kp RBKT            &kp N          &kp M                   &kp COMMA             &kp DOT               &kp FSLH                          &to 5
+                                                           &kp BACKSPACE         &holdLayer 3 TAB        &holdLayer 1 SPACE  &holdLayer 3 ESCAPE          &holdLayer 4 ENTER  &kp BACKSPACE  &kp DELETE              &kp LG(SPACE)
             >;
         };
 
-        num-sym-fun {
+        num-sym-fun-braces {
             bindings = <
 &trans  &kp F1                          &kp F2                      &kp F3                   &kp F4                     &kp F5                                        &kp F6                    &kp F7                        &kp F8                       &kp F9                               &kp F10                               &kp F11
-&trans  &kp EXCLAMATION                 &kp AT_SIGN                 &kp POUND                &kp DOLLAR                 &kp PERCENT                                   &kp CARET                 &kp AMPERSAND                 &kp ASTERISK                 &kp LEFT_PARENTHESIS                 &kp RIGHT_PARENTHESIS                 &kp F12
+&trans  &kp EXCLAMATION                 &kp AT_SIGN                 &kp LBKT                 &kp RBKT                   &kp PERCENT                                   &kp CARET                 &kp LS(LPAR)                  &kp LS(RPAR)                 &kp LEFT_PARENTHESIS                 &kp RIGHT_PARENTHESIS                 &kp F12
 &trans  &tap_hold EXCLAMATION NUMBER_1  &tap_hold AT_SIGN NUMBER_2  &tap_hold HASH NUMBER_3  &tap_hold DOLLAR NUMBER_4  &tap_hold PERCENT NUMBER_5                    &tap_hold CARET NUMBER_6  &tap_hold AMPERSAND NUMBER_7  &tap_hold ASTERISK NUMBER_8  &tap_hold LEFT_PARENTHESIS NUMBER_9  &tap_hold RIGHT_PARENTHESIS NUMBER_0  &none
-&trans  &none                           &none                       &none                    &none                      &none                       &none     &none   &none                     &none                         &none                        &none                                &none                                 &none
+&trans  &none                           &kp LA(F4)                  &caps_word               &none                      &none                       &none     &none   &none                     &kp LS(LEFT_BRACKET)          &kp LS(RIGHT_BRACKET)        &none                                &none                                 &none
                                                                     &trans                   &none                      &trans                      &trans    &trans  &trans                    &trans                        &none
             >;
         };
@@ -104,9 +104,9 @@
 
         Gaming_plus {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3     &kp F4   &kp F5                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N6  &kp N7  &kp N8     &kp N9   &kp N0                      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp Y   &trans  &kp I      &kp O    &kp P                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &kp L    &kp SEMI                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &kp J    &kp SEMI                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                         &trans     &trans   &trans    &trans    &trans  &trans  &trans  &trans
             >;
