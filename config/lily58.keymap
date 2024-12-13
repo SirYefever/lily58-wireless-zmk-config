@@ -47,18 +47,18 @@
 &none      &kp N1                    &kp N2                &kp N3                &kp N4              &kp N5                                                               &kp N6         &kp N7                  &kp N8                &kp N9                &kp N0                            &none
 &kp TAB    &kp Q                     &kp W                 &kp E                 &kp R               &kp T                                                                &kp Y          &kp U                   &kp I                 &kp O                 &kp P                             &kp PRINTSCREEN
 &kp LSHFT  &tap_hold LEFT_CONTROL A  &tap_hold LEFT_GUI S  &tap_hold LEFT_ALT D  &tap_hold ESCAPE F  &kp G                                                                &kp H          &tap_hold LEFT_SHIFT J  &tap_hold LEFT_ALT K  &tap_hold LEFT_GUI L  &tap_hold LEFT_CONTROL SEMICOLON  &kp APOS
-&kp LCTRL  &kp Z                     &kp X                 &kp C                 &kp V               &kp B               &holdLayer 5 LEFT_BRACKET    &kp RBKT            &kp N          &kp M                   &kp COMMA             &kp DOT               &kp FSLH                          &to 5
-                                                           &kp BACKSPACE         &holdLayer 3 TAB    &holdLayer 1 SPACE  &holdLayer 3 ESCAPE          &holdLayer 4 ENTER  &kp BACKSPACE  &kp DELETE              &kp LG(SPACE)
+&kp LCTRL  &kp Z                     &kp X                 &kp C                 &kp V               &kp B               &holdLayer 4 LEFT_BRACKET    &kp RBKT            &kp N          &kp M                   &kp COMMA             &kp DOT               &kp FSLH                          &to 4
+                                                           &kp BACKSPACE         &kp TAB             &holdLayer 1 SPACE  &kp ESCAPE                   &holdLayer 3 ENTER  &kp BACKSPACE  &kp DELETE              &kp LG(SPACE)
             >;
         };
 
         num-sym-fun-braces {
             bindings = <
-&trans  &kp F1                          &kp F2                      &kp F3                   &kp F4                     &kp F5                                        &kp F6                    &kp F7                        &kp F8                       &kp F9                               &kp F10                               &kp F11
-&trans  &kp BSLH                        &kp PIPE                    &kp UNDER                &kp MINUS                  &none                                         &none                     &kp LEFT_PARENTHESIS          &kp RIGHT_PARENTHESIS        &none                                &none                                 &kp F12
-&trans  &tap_hold EXCLAMATION NUMBER_1  &tap_hold AT_SIGN NUMBER_2  &tap_hold HASH NUMBER_3  &tap_hold DOLLAR NUMBER_4  &tap_hold PERCENT NUMBER_5                    &tap_hold CARET NUMBER_6  &tap_hold AMPERSAND NUMBER_7  &tap_hold ASTERISK NUMBER_8  &tap_hold LEFT_PARENTHESIS NUMBER_9  &tap_hold RIGHT_PARENTHESIS NUMBER_0  &none
-&trans  &none                           &kp LA(F4)                  &caps_word               &none                      &none                       &none     &none   &kp COLON                 &kp EQUAL                     &kp LEFT_BRACE               &kp RIGHT_BRACE                      &none                                 &none
-                                                                    &trans                   &none                      &trans                      &trans    &trans  &trans                    &trans                        &none
+&trans  &kp F1                          &kp F2                      &kp F3                   &kp F4                     &kp F5                                           &kp F6                    &kp F7                        &kp F8                       &kp F9              &kp F10            &kp F11
+&trans  &none                           &kp PIPE                    &kp LBKT                 &kp RBKT                   &none                                            &none                     &kp LEFT_PARENTHESIS          &kp RIGHT_PARENTHESIS        &none               &none              &kp F12
+&trans  &tap_hold EXCLAMATION NUMBER_1  &tap_hold AT_SIGN NUMBER_2  &tap_hold HASH NUMBER_3  &tap_hold DOLLAR NUMBER_4  &tap_hold PERCENT NUMBER_5                       &tap_hold CARET NUMBER_6  &tap_hold AMPERSAND NUMBER_7  &tap_hold ASTERISK NUMBER_8  &tap_hold UNDER N9  &tap_hold PIPE N0  &none
+&trans  &none                           &kp LA(F4)                  &caps_word               &none                      &none                       &none     &none      &kp COLON                 &kp EQUAL                     &kp LEFT_BRACE               &kp RIGHT_BRACE     &kp BACKSLASH      &none
+                                                                    &trans                   &none                      &trans                      &trans    &kp MINUS  &kp PLUS                  &trans                        &none
             >;
         };
 
@@ -69,16 +69,6 @@
 &trans  &none  &caps_word  &kp LBKT  &kp RBKT  &none                        &none   &kp LEFT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &none
 &trans  &none  &none       &none     &none     &none       &none     &none  &none   &none                 &none             &none            &none                  &none
                            &trans    &trans    &trans      &trans    &none  &trans  &trans                &none
-            >;
-        };
-
-        sym {
-            bindings = <
-&trans  &none     &none     &none           &none      &none                    &none            &none      &none      &none     &none         &none
-&trans  &none     &none     &none           &none      &none                    &none            &none      &none      &none     &none         &none
-&trans  &kp BSLH  &kp PIPE  &kp UNDERSCORE  &kp MINUS  &none                    &kp EXCLAMATION  &kp COLON  &kp EQUAL  &kp PLUS  &kp QUESTION  &none
-&trans  &none     &none     &none           &none      &none   &none    &none   &none            &none      &none      &none     &none         &none
-                            &trans          &trans     &trans  &none    &trans  &trans           &trans     &none
             >;
         };
 
@@ -98,17 +88,17 @@
 &kp TAB    &kp Q   &kp W   &kp E         &kp R   &kp T                                             &kp Y          &kp U       &kp I          &kp O    &kp P     &kp PRINTSCREEN
 &kp LSHFT  &kp A   &kp S   &kp D         &kp F   &kp G                                             &kp H          &kp J       &kp K          &kp L    &kp SEMI  &kp APOS
 &kp LCTRL  &kp Z   &kp X   &kp C         &kp V   &kp B      &holdLayer 0 N    &kp RBKT             &kp N          &kp M       &kp COMMA      &kp DOT  &kp FSLH  &to 0
-                           &kp LEFT_ALT  &kp L   &kp SPACE  &mo 6             &holdLayer 4 RETURN  &kp BACKSPACE  &kp DELETE  &kp LG(SPACE)
+                           &kp LEFT_ALT  &kp L   &kp SPACE  &mo 5             &holdLayer 3 RETURN  &kp BACKSPACE  &kp DELETE  &kp LG(SPACE)
             >;
         };
 
         Gaming_plus {
             bindings = <
-&trans  &kp N6  &kp N7  &kp N8     &kp N9   &kp N0                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp Y   &trans  &kp I      &kp O    &kp P                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &kp J    &kp SEMI                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp K   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans     &trans   &trans    &trans    &trans  &trans  &trans  &trans
+&trans  &kp N6  &kp N7  &kp N8     &kp N9   &kp N0                      &trans    &trans    &trans  &trans     &trans    &trans
+&trans  &kp Y   &trans  &kp I      &kp O    &kp P                       &trans    &trans    &trans  &trans     &trans    &trans
+&trans  &trans  &trans  &trans     &kp J    &kp SEMI                    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp UP    &trans
+&trans  &kp K   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans    &trans  &trans    &trans    &trans  &kp LEFT   &kp DOWN  &kp RIGHT
+                        &trans     &trans   &trans    &trans    &trans  &trans    &trans    &trans
             >;
         };
     };
