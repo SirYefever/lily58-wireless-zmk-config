@@ -44,11 +44,11 @@
 
         base {
             bindings = <
-&kp ESCAPE  &kp N1                    &kp N2                &kp N3                &kp N4              &kp N5                                                      &kp N6         &kp N7                  &kp N8                &kp N9                &kp N0                            &kp BACKSPACE
-&kp TAB     &kp Q                     &kp W                 &kp E                 &kp R               &kp T                                                       &kp Y          &kp U                   &kp I                 &kp O                 &kp P                             &kp PRINTSCREEN
-&kp LSHFT   &tap_hold LEFT_CONTROL A  &tap_hold LEFT_GUI S  &tap_hold LEFT_ALT D  &tap_hold ESCAPE F  &kp G                                                       &kp H          &tap_hold LEFT_SHIFT J  &tap_hold LEFT_ALT K  &tap_hold LEFT_GUI L  &tap_hold LEFT_CONTROL SEMICOLON  &kp APOS
-&kp LCTRL   &kp Z                     &kp X                 &kp C                 &kp V               &kp B               &kp LEFT_BRACKET    &kp RBKT            &kp N          &kp M                   &kp COMMA             &kp DOT               &kp FSLH                          &to 4
-                                                            &kp BACKSPACE         &kp TAB             &holdLayer 1 SPACE  &kp ESCAPE          &holdLayer 3 ENTER  &kp BACKSPACE  &kp DELETE              &kp LG(SPACE)
+&kp ESCAPE  &kp N1                    &kp N2                &kp N3                &kp N4                  &kp N5                                                      &kp N6         &kp N7                  &kp N8                &kp N9                &kp N0                            &none
+&kp TAB     &kp Q                     &kp W                 &kp E                 &kp R                   &kp T                                                       &kp Y          &kp U                   &kp I                 &kp O                 &kp P                             &kp PRINTSCREEN
+&kp LSHFT   &tap_hold LEFT_CONTROL A  &tap_hold LEFT_GUI S  &tap_hold LEFT_ALT D  &tap_hold LEFT_SHIFT F  &kp G                                                       &kp H          &tap_hold LEFT_SHIFT J  &tap_hold LEFT_ALT K  &tap_hold LEFT_GUI L  &tap_hold LEFT_CONTROL SEMICOLON  &kp APOS
+&kp LCTRL   &kp Z                     &kp X                 &kp C                 &kp V                   &kp B               &kp LEFT_BRACKET    &kp RBKT            &kp N          &kp M                   &kp COMMA             &kp DOT               &kp FSLH                          &to 4
+                                                            &mo 3                 &kp TAB                 &holdLayer 1 SPACE  &kp ESCAPE          &holdLayer 3 ENTER  &kp BACKSPACE  &kp DELETE              &kp LG(SPACE)
             >;
         };
 
